@@ -1,0 +1,1060 @@
+2021-03-24 19:11:20.391  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : Starting VmsApplication on DESKTOP-52B700M with PID 1296 (E:\Project\society_secure_project\MyApp\target\classes started by Pikun in E:\Project\society_secure_project\MyApp)
+2021-03-24 19:11:20.411  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : No active profile set, falling back to default profiles: default
+2021-03-24 19:11:20.701  INFO 1296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 19:11:27.017  INFO 1296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-24 19:11:27.488  INFO 1296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 437ms. Found 21 JPA repository interfaces.
+2021-03-24 19:11:29.182  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 19:11:29.393  INFO 1296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8691 ms
+2021-03-24 19:11:29.946 DEBUG 1296 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648
+2021-03-24 19:11:29.948 DEBUG 1296 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-03-24 19:11:30.140 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1859ada5
+2021-03-24 19:11:30.501  INFO 1296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:11:30.555 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-03-24 19:11:30.574 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2021-03-24 19:11:30.575 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2021-03-24 19:11:30.576 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2021-03-24 19:11:30.577 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2021-03-24 19:11:30.577 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2021-03-24 19:11:30.578 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
+2021-03-24 19:11:30.578 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2021-03-24 19:11:30.579 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2021-03-24 19:11:30.579 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2021-03-24 19:11:30.581 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2021-03-24 19:11:30.581 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-03-24 19:11:30.582 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2021-03-24 19:11:30.582 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2021-03-24 19:11:30.582 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2021-03-24 19:11:30.583 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2021-03-24 19:11:30.584 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2021-03-24 19:11:30.584 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2021-03-24 19:11:30.585 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/SocietySecure
+2021-03-24 19:11:30.586 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2021-03-24 19:11:30.586 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2021-03-24 19:11:30.587 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................5
+2021-03-24 19:11:30.587 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2021-03-24 19:11:30.588 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2021-03-24 19:11:30.588 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2021-03-24 19:11:30.589 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2021-03-24 19:11:30.589 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2021-03-24 19:11:30.590 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2021-03-24 19:11:30.590 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2021-03-24 19:11:30.591 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2021-03-24 19:11:30.591 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2021-03-24 19:11:30.592 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2021-03-24 19:11:30.592 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2021-03-24 19:11:30.593 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2021-03-24 19:11:30.593 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2021-03-24 19:11:30.594  INFO 1296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-24 19:11:31.613 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65d249f0
+2021-03-24 19:11:31.619  INFO 1296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-24 19:11:31.724 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-03-24 19:11:31.742 DEBUG 1296 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5077d9f7
+2021-03-24 19:11:31.754 DEBUG 1296 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@114ad3cc
+2021-03-24 19:11:31.764 DEBUG 1296 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2091674e
+2021-03-24 19:11:31.776 DEBUG 1296 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71652c83
+2021-03-24 19:11:31.777 DEBUG 1296 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:11:33.726  WARN 1296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-24 19:11:34.282 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.AdvanceVisitorController:
+	{POST /avr/}: findAllVisitors()
+	{POST /avr/create}: createController(AdvanceVisitorRequestDTO)
+	{POST /avr/verify}: verifyAdvVisitorRequestController(KeyValueRequest)
+	{POST /avr/{avrId}}: findOneFlatController(long)
+2021-03-24 19:11:34.289 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CityController:
+	{POST /city/}: findAllCity()
+	{POST /city/{cityId}}: findOneCityController(Integer)
+	{POST /city/did}: findCityByDistrictController(IdStringRequest)
+2021-03-24 19:11:34.295 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CountryController:
+	{POST /country}: findAllState()
+	{POST /country/{countryId}}: findOneUserController(long)
+2021-03-24 19:11:34.298 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.DistrictController:
+	{POST /district/}: findAllState()
+	{POST /district/{districtId}}: findOneUserController(long)
+	{POST /district/sid}: findStateByCountryController(IdStringRequest)
+2021-03-24 19:11:34.301 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.FlatController:
+	{POST /flat/{flatId}}: findOneFlatController(long)
+	{POST /flat/create}: createUpdateFlatController(FlatDTO)
+	{POST /flat/}: findAllFlatController()
+2021-03-24 19:11:34.302 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.HomeController:
+	{GET /}: home()
+2021-03-24 19:11:34.308 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.MenuLinkController:
+	{POST /menu/factory/{isFactDefault}}: getAllNoneFactoryDefaultMenuController(boolean)
+	{POST /menu/}: getAllMenuController()
+	{POST /menu/{menuId}}: getSingleMenuByIdController(int)
+	{POST /menu/roleid/{roleId}}: getMenuByRoleIdController(int)
+	{POST /menu/rolename/{roleName}}: getMenuByRoleNameController(String)
+	{POST /menu/admin/{isAdminMenu}}: getAllNoneAdminMenuController(boolean)
+	{POST /menu/common/{isCommom}}: getAllNoneCommonMenuController(boolean)
+	{POST /menu/create}: createMenuController(MenuLinkDTO)
+	{POST /menu/parent/{parentMenuId}}: getAllByParentMenuIdController(int)
+2021-03-24 19:11:34.312 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodController:
+	{POST /nbr/statusupdate}: updateNeighbourhoodStatusController(NeibourhoodStatusRequest)
+	{POST /nbr/{neighbourId}}: findOneNeighbourhoodController(Integer)
+	{POST /nbr/create}: createNeighbourhoodController(NeighbourhoodDTO)
+	{POST /nbr}: findAllNeighbourhoodController()
+2021-03-24 19:11:34.316 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodEmployeeController:
+	{POST /nbremployee}: findAllNeighbourhoodEmployeeController()
+	{POST /nbremployee/create}: createNeighbourhoodEmployeeController(NeibourhoodEmployeeDTO)
+	{POST /nbremployee/{neighbourEmpId}}: findOneNeighbourhoodEmployeeController(Integer)
+2021-03-24 19:11:34.320 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodPassController:
+	{POST /nbrpass}: findAllNeighbourhoodPassDetailController()
+	{POST /nbrpass/{neighbourPass}}: findOneNeighbourhoodPassDetailController(Long)
+	{POST /nbrpass/create}: createNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+	{POST /nbrpass/verify}: verifyNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+2021-03-24 19:11:34.324 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NotificationController:
+	{POST /notification/getall}: getNofiicationForUserController(IdNumberRequest)
+	{POST /notification/create}: createNotificationController(NotificationDTO)
+	{POST /notification/getone}: getOneNofiicationController(IdNumberRequest)
+	{POST /notification/verifyotp}: getOneNOtificationByIdController(IdNumberRequest)
+2021-03-24 19:11:34.327 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.OtpController:
+	{POST /otp/verify}: verifyOtpPhoneController(KeyValueRequest)
+	{POST /otp/verifyotp}: verifyOtpUserRegdController(IdNumberRequest)
+	{POST /otp/create}: createOtpController(PhoneEmailRequest)
+2021-03-24 19:11:34.331 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.RoleController:
+	{POST /role/}: getAllRolesController()
+	{POST /role/{roleId}}: getSingleRoleByIdController(int)
+	{POST /role/names/role}: getAllRolesNameController()
+	{POST /role/def-role/{userId}}: getDefaultRoleByUserIdController(Long)
+	{POST /role/create}: createRoleController(RoleDTO)
+	{POST /role/roles-uid/{userId}}: getRoleByUserIdController(Long)
+2021-03-24 19:11:34.335 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyController:
+	{POST /society}: findAllSociety()
+	{POST /society/cid}: findSocietyByCityController(IdStringRequest)
+	{POST /society/{societyId}}: findOneSocietyController(Integer)
+2021-03-24 19:11:34.337 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyEnrollmentController:
+	{POST /societyenrollment/{societyEnrollmentId}}: findOneSocietyEnrollmentController(Integer)
+	{POST /societyenrollment/enroll}: saveSocietyEnrollmentController(EnrolmentData)
+	{POST /societyenrollment}: findAllSocietyEnrollment()
+2021-03-24 19:11:34.339 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StaffController:
+	{POST /staff/}: findAllStaff()
+	{POST /staff/{staffId}}: findOneStaffController(long)
+2021-03-24 19:11:34.341 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StateController:
+	{POST /state/}: findAllState()
+	{POST /state/cid}: findStateByCountryController(IdStringRequest)
+	{POST /state/{stateId}}: findOneStateController(long)
+2021-03-24 19:11:34.346 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.UserController:
+	{POST /user/}: findAll()
+	{POST /user/logout}: logoutController(GlobalUserDTO)
+	{POST /user/login}: loginController(LoginDTO)
+	{POST /user/{userId}}: findOneUserController(long)
+	{POST /user/resetpass}: resetPasswordController(IdNumberRequest)
+	{POST /user/changepass}: changePasswordController(ChangePassword)
+	{POST /user/create}: createUpdateUserController(GlobalUserDTO)
+	{POST /user/forgotpass}: forgotPasswordController(IdStringRequest)
+	{POST /user/dropdowns}: getUserDropdownController(GlobalUserDTO)
+2021-03-24 19:11:34.350 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VisitorController:
+	{POST /visitor/}: findAllVisitors()
+	{POST /visitor/{visitorId}}: findOneFlatController(long)
+	{POST /visitor/fetchVisitorData}: fetchVisitorController(IdStringRequest)
+	{POST /visitor/create}: createUpdateUserController(VisitorDTO)
+2021-03-24 19:11:34.354 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VoteController:
+	{POST /vote/votename}: getNofiicationForUserController(IdStringRequest)
+	{POST /vote/create}: createVoteController(VoteDTO)
+	{POST /vote/creategroup}: createGroupVoteController(VoteDTO)
+	{POST /vote/votecount/}: getVoteCountController(IdStringRequest)
+	{POST /vote/userid}: getResultsByUserController(IdNumberRequest)
+	{POST /vote/{voteId}}: getOneVoteController(Long)
+2021-03-24 19:11:34.374 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-03-24 19:11:34.383 DEBUG 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 81 mappings in 'requestMappingHandlerMapping'
+2021-03-24 19:11:34.411 DEBUG 1296 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2021-03-24 19:11:34.817 DEBUG 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-03-24 19:11:35.008 DEBUG 1296 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-03-24 19:11:38.743  INFO 1296 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-24 19:11:39.105  INFO 1296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-24 19:11:39.120  INFO 1296 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-24 19:11:39.425  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/society'
+2021-03-24 19:11:39.433  INFO 1296 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-24 19:11:41.304  INFO 1296 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-24 19:11:41.320 TRACE 1296 --- [restartedMain] o.s.w.s.resource.ResourceUrlProvider     : No resource handling mappings found
+2021-03-24 19:11:41.330  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : Started VmsApplication in 23.738 seconds (JVM running for 26.955)
+2021-03-24 19:12:01.732 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:12:01.732 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:12:31.740 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:12:31.741 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:13:01.750 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:13:01.751 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:13:31.763 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:13:31.764 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:14:01.767 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:14:01.767 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:14:31.777 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:14:31.777 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:15:01.789 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:15:01.789 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:15:25.655  INFO 1164 --- [restartedMain] com.society.core.vms.VmsApplication      : Starting VmsApplication on DESKTOP-52B700M with PID 1164 (E:\Project\society_secure_project\MyApp\target\classes started by Pikun in E:\Project\society_secure_project\MyApp)
+2021-03-24 19:15:25.658  INFO 1164 --- [restartedMain] com.society.core.vms.VmsApplication      : No active profile set, falling back to default profiles: default
+2021-03-24 19:15:25.726  INFO 1164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 19:15:28.517  INFO 1164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-24 19:15:29.199  INFO 1164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 670ms. Found 21 JPA repository interfaces.
+2021-03-24 19:15:30.101  INFO 1164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 19:15:30.504  INFO 1164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4777 ms
+2021-03-24 19:15:30.698 DEBUG 1164 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648
+2021-03-24 19:15:30.698 DEBUG 1164 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-03-24 19:15:30.824 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@62a0c930
+2021-03-24 19:15:30.980  INFO 1164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:15:30.999 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-03-24 19:15:31.002 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2021-03-24 19:15:31.003 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2021-03-24 19:15:31.003 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2021-03-24 19:15:31.004 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2021-03-24 19:15:31.004 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2021-03-24 19:15:31.004 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
+2021-03-24 19:15:31.004 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2021-03-24 19:15:31.005 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2021-03-24 19:15:31.005 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2021-03-24 19:15:31.006 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2021-03-24 19:15:31.008 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-03-24 19:15:31.009 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2021-03-24 19:15:31.009 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2021-03-24 19:15:31.010 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2021-03-24 19:15:31.010 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2021-03-24 19:15:31.010 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2021-03-24 19:15:31.011 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2021-03-24 19:15:31.011 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/SocietySecure
+2021-03-24 19:15:31.012 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2021-03-24 19:15:31.012 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2021-03-24 19:15:31.012 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................5
+2021-03-24 19:15:31.013 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2021-03-24 19:15:31.013 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2021-03-24 19:15:31.013 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2021-03-24 19:15:31.013 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2021-03-24 19:15:31.013 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2021-03-24 19:15:31.014 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2021-03-24 19:15:31.014 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2021-03-24 19:15:31.014 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2021-03-24 19:15:31.014 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2021-03-24 19:15:31.014 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2021-03-24 19:15:31.014 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2021-03-24 19:15:31.015 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2021-03-24 19:15:31.015 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2021-03-24 19:15:31.015  INFO 1164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-24 19:15:31.205 DEBUG 1164 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@695a5089
+2021-03-24 19:15:31.207  INFO 1164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-24 19:15:31.312 DEBUG 1164 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-03-24 19:15:31.437 DEBUG 1164 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@322dbd80
+2021-03-24 19:15:31.445 DEBUG 1164 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7310b7bb
+2021-03-24 19:15:31.451 DEBUG 1164 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4229a303
+2021-03-24 19:15:31.457 DEBUG 1164 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@133f48f4
+2021-03-24 19:15:31.458 DEBUG 1164 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:15:31.795  WARN 1164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-24 19:15:31.803 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:15:31.803 DEBUG 1296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:15:31.899 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.AdvanceVisitorController:
+	{POST /avr/}: findAllVisitors()
+	{POST /avr/create}: createController(AdvanceVisitorRequestDTO)
+	{POST /avr/verify}: verifyAdvVisitorRequestController(KeyValueRequest)
+	{POST /avr/{avrId}}: findOneFlatController(long)
+2021-03-24 19:15:31.917 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CityController:
+	{POST /city/}: findAllCity()
+	{POST /city/{cityId}}: findOneCityController(Integer)
+	{POST /city/did}: findCityByDistrictController(IdStringRequest)
+2021-03-24 19:15:31.922 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CountryController:
+	{POST /country}: findAllState()
+	{POST /country/{countryId}}: findOneUserController(long)
+2021-03-24 19:15:31.926 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.DistrictController:
+	{POST /district/}: findAllState()
+	{POST /district/{districtId}}: findOneUserController(long)
+	{POST /district/sid}: findStateByCountryController(IdStringRequest)
+2021-03-24 19:15:31.928 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.FlatController:
+	{POST /flat/}: findAllFlatController()
+	{POST /flat/{flatId}}: findOneFlatController(long)
+	{POST /flat/create}: createUpdateFlatController(FlatDTO)
+2021-03-24 19:15:31.930 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.HomeController:
+	{GET /}: home()
+2021-03-24 19:15:31.939 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.MenuLinkController:
+	{POST /menu/factory/{isFactDefault}}: getAllNoneFactoryDefaultMenuController(boolean)
+	{POST /menu/admin/{isAdminMenu}}: getAllNoneAdminMenuController(boolean)
+	{POST /menu/{menuId}}: getSingleMenuByIdController(int)
+	{POST /menu/roleid/{roleId}}: getMenuByRoleIdController(int)
+	{POST /menu/common/{isCommom}}: getAllNoneCommonMenuController(boolean)
+	{POST /menu/parent/{parentMenuId}}: getAllByParentMenuIdController(int)
+	{POST /menu/}: getAllMenuController()
+	{POST /menu/rolename/{roleName}}: getMenuByRoleNameController(String)
+	{POST /menu/create}: createMenuController(MenuLinkDTO)
+2021-03-24 19:15:31.947 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodController:
+	{POST /nbr/statusupdate}: updateNeighbourhoodStatusController(NeibourhoodStatusRequest)
+	{POST /nbr}: findAllNeighbourhoodController()
+	{POST /nbr/create}: createNeighbourhoodController(NeighbourhoodDTO)
+	{POST /nbr/{neighbourId}}: findOneNeighbourhoodController(Integer)
+2021-03-24 19:15:31.952 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodEmployeeController:
+	{POST /nbremployee}: findAllNeighbourhoodEmployeeController()
+	{POST /nbremployee/create}: createNeighbourhoodEmployeeController(NeibourhoodEmployeeDTO)
+	{POST /nbremployee/{neighbourEmpId}}: findOneNeighbourhoodEmployeeController(Integer)
+2021-03-24 19:15:31.955 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodPassController:
+	{POST /nbrpass/create}: createNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+	{POST /nbrpass}: findAllNeighbourhoodPassDetailController()
+	{POST /nbrpass/{neighbourPass}}: findOneNeighbourhoodPassDetailController(Long)
+	{POST /nbrpass/verify}: verifyNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+2021-03-24 19:15:31.958 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NotificationController:
+	{POST /notification/getall}: getNofiicationForUserController(IdNumberRequest)
+	{POST /notification/verifyotp}: getOneNOtificationByIdController(IdNumberRequest)
+	{POST /notification/create}: createNotificationController(NotificationDTO)
+	{POST /notification/getone}: getOneNofiicationController(IdNumberRequest)
+2021-03-24 19:15:31.961 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.OtpController:
+	{POST /otp/verify}: verifyOtpPhoneController(KeyValueRequest)
+	{POST /otp/verifyotp}: verifyOtpUserRegdController(IdNumberRequest)
+	{POST /otp/create}: createOtpController(PhoneEmailRequest)
+2021-03-24 19:15:31.965 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.RoleController:
+	{POST /role/}: getAllRolesController()
+	{POST /role/names/role}: getAllRolesNameController()
+	{POST /role/def-role/{userId}}: getDefaultRoleByUserIdController(Long)
+	{POST /role/roles-uid/{userId}}: getRoleByUserIdController(Long)
+	{POST /role/create}: createRoleController(RoleDTO)
+	{POST /role/{roleId}}: getSingleRoleByIdController(int)
+2021-03-24 19:15:31.967 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyController:
+	{POST /society/cid}: findSocietyByCityController(IdStringRequest)
+	{POST /society/{societyId}}: findOneSocietyController(Integer)
+	{POST /society}: findAllSociety()
+2021-03-24 19:15:31.969 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyEnrollmentController:
+	{POST /societyenrollment/{societyEnrollmentId}}: findOneSocietyEnrollmentController(Integer)
+	{POST /societyenrollment/enroll}: saveSocietyEnrollmentController(EnrolmentData)
+	{POST /societyenrollment}: findAllSocietyEnrollment()
+2021-03-24 19:15:31.971 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StaffController:
+	{POST /staff/{staffId}}: findOneStaffController(long)
+	{POST /staff/}: findAllStaff()
+2021-03-24 19:15:31.973 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StateController:
+	{POST /state/}: findAllState()
+	{POST /state/cid}: findStateByCountryController(IdStringRequest)
+	{POST /state/{stateId}}: findOneStateController(long)
+2021-03-24 19:15:31.981 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.UserController:
+	{POST /user/}: findAll()
+	{POST /user/{userId}}: findOneUserController(long)
+	{POST /user/create}: createUpdateUserController(GlobalUserDTO)
+	{POST /user/dropdowns}: getUserDropdownController(GlobalUserDTO)
+	{POST /user/resetpass}: resetPasswordController(IdNumberRequest)
+	{POST /user/changepass}: changePasswordController(ChangePassword)
+	{POST /user/forgotpass}: forgotPasswordController(IdStringRequest)
+	{POST /user/login}: loginController(LoginDTO)
+	{POST /user/logout}: logoutController(GlobalUserDTO)
+2021-03-24 19:15:31.985 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VisitorController:
+	{POST /visitor/}: findAllVisitors()
+	{POST /visitor/{visitorId}}: findOneFlatController(long)
+	{POST /visitor/create}: createUpdateUserController(VisitorDTO)
+	{POST /visitor/fetchVisitorData}: fetchVisitorController(IdStringRequest)
+2021-03-24 19:15:31.988 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VoteController:
+	{POST /vote/votename}: getNofiicationForUserController(IdStringRequest)
+	{POST /vote/votecount/}: getVoteCountController(IdStringRequest)
+	{POST /vote/{voteId}}: getOneVoteController(Long)
+	{POST /vote/create}: createVoteController(VoteDTO)
+	{POST /vote/userid}: getResultsByUserController(IdNumberRequest)
+	{POST /vote/creategroup}: createGroupVoteController(VoteDTO)
+2021-03-24 19:15:31.999 TRACE 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-03-24 19:15:32.011 DEBUG 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 81 mappings in 'requestMappingHandlerMapping'
+2021-03-24 19:15:32.038 DEBUG 1164 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2021-03-24 19:15:32.353 DEBUG 1164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-03-24 19:15:32.426 DEBUG 1164 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-03-24 19:15:56.989  INFO 1296 --- [Thread-320] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-24 19:15:56.998  INFO 1296 --- [Thread-320] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:15:57.004  INFO 1296 --- [Thread-320] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-24 19:15:57.005 DEBUG 1296 --- [Thread-320] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:15:57.008 DEBUG 1296 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65d249f0: (connection evicted)
+2021-03-24 19:15:57.088 DEBUG 1296 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5077d9f7: (connection evicted)
+2021-03-24 19:15:57.090 DEBUG 1296 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@114ad3cc: (connection evicted)
+2021-03-24 19:15:57.091 DEBUG 1296 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2091674e: (connection evicted)
+2021-03-24 19:15:57.093 DEBUG 1296 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71652c83: (connection evicted)
+2021-03-24 19:15:57.096 DEBUG 1296 --- [Thread-320] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-03-24 19:15:57.096  INFO 1296 --- [Thread-320] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-24 19:15:57.537  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : Starting VmsApplication on DESKTOP-52B700M with PID 1296 (E:\Project\society_secure_project\MyApp\target\classes started by Pikun in E:\Project\society_secure_project\MyApp)
+2021-03-24 19:15:57.537  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : No active profile set, falling back to default profiles: default
+2021-03-24 19:15:59.774  INFO 1296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-24 19:15:59.931  INFO 1296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156ms. Found 21 JPA repository interfaces.
+2021-03-24 19:16:00.208  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 19:16:00.239  INFO 1296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2696 ms
+2021-03-24 19:16:00.301 DEBUG 1296 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648
+2021-03-24 19:16:00.301 DEBUG 1296 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-03-24 19:16:00.316 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f984d8b
+2021-03-24 19:16:00.362  INFO 1296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:16:00.364 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-2 - configuration:
+2021-03-24 19:16:00.366 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2021-03-24 19:16:00.366 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2021-03-24 19:16:00.367 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2021-03-24 19:16:00.367 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2021-03-24 19:16:00.367 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2021-03-24 19:16:00.368 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
+2021-03-24 19:16:00.368 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2021-03-24 19:16:00.368 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2021-03-24 19:16:00.368 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2021-03-24 19:16:00.368 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2021-03-24 19:16:00.369 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-03-24 19:16:00.369 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2021-03-24 19:16:00.369 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2021-03-24 19:16:00.369 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2021-03-24 19:16:00.370 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2021-03-24 19:16:00.370 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2021-03-24 19:16:00.370 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2021-03-24 19:16:00.371 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/SocietySecure
+2021-03-24 19:16:00.371 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2021-03-24 19:16:00.371 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2021-03-24 19:16:00.371 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................5
+2021-03-24 19:16:00.372 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2021-03-24 19:16:00.372 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2021-03-24 19:16:00.372 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2021-03-24 19:16:00.372 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2021-03-24 19:16:00.372 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-2"
+2021-03-24 19:16:00.372 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2021-03-24 19:16:00.373 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2021-03-24 19:16:00.374 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2021-03-24 19:16:00.374 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2021-03-24 19:16:00.374 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2021-03-24 19:16:00.374 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2021-03-24 19:16:00.374 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2021-03-24 19:16:00.374 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2021-03-24 19:16:00.375  INFO 1296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-24 19:16:00.381 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20ce6ac5
+2021-03-24 19:16:00.381  INFO 1296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-24 19:16:00.492 DEBUG 1296 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-03-24 19:16:00.508 DEBUG 1296 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@291772a
+2021-03-24 19:16:00.516 DEBUG 1296 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b04fdac
+2021-03-24 19:16:00.520 DEBUG 1296 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e723c6
+2021-03-24 19:16:00.525 DEBUG 1296 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f36e21f
+2021-03-24 19:16:00.525 DEBUG 1296 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:16:00.624  WARN 1296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-24 19:16:00.665 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.AdvanceVisitorController:
+	{POST /avr/}: findAllVisitors()
+	{POST /avr/create}: createController(AdvanceVisitorRequestDTO)
+	{POST /avr/verify}: verifyAdvVisitorRequestController(KeyValueRequest)
+	{POST /avr/{avrId}}: findOneFlatController(long)
+2021-03-24 19:16:00.667 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CityController:
+	{POST /city/}: findAllCity()
+	{POST /city/{cityId}}: findOneCityController(Integer)
+	{POST /city/did}: findCityByDistrictController(IdStringRequest)
+2021-03-24 19:16:00.668 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CountryController:
+	{POST /country}: findAllState()
+	{POST /country/{countryId}}: findOneUserController(long)
+2021-03-24 19:16:00.670 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.DistrictController:
+	{POST /district/}: findAllState()
+	{POST /district/{districtId}}: findOneUserController(long)
+	{POST /district/sid}: findStateByCountryController(IdStringRequest)
+2021-03-24 19:16:00.671 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.FlatController:
+	{POST /flat/{flatId}}: findOneFlatController(long)
+	{POST /flat/create}: createUpdateFlatController(FlatDTO)
+	{POST /flat/}: findAllFlatController()
+2021-03-24 19:16:00.672 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.HomeController:
+	{GET /}: home()
+2021-03-24 19:16:00.674 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.MenuLinkController:
+	{POST /menu/factory/{isFactDefault}}: getAllNoneFactoryDefaultMenuController(boolean)
+	{POST /menu/}: getAllMenuController()
+	{POST /menu/{menuId}}: getSingleMenuByIdController(int)
+	{POST /menu/roleid/{roleId}}: getMenuByRoleIdController(int)
+	{POST /menu/rolename/{roleName}}: getMenuByRoleNameController(String)
+	{POST /menu/admin/{isAdminMenu}}: getAllNoneAdminMenuController(boolean)
+	{POST /menu/common/{isCommom}}: getAllNoneCommonMenuController(boolean)
+	{POST /menu/create}: createMenuController(MenuLinkDTO)
+	{POST /menu/parent/{parentMenuId}}: getAllByParentMenuIdController(int)
+2021-03-24 19:16:00.677 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodController:
+	{POST /nbr/statusupdate}: updateNeighbourhoodStatusController(NeibourhoodStatusRequest)
+	{POST /nbr/{neighbourId}}: findOneNeighbourhoodController(Integer)
+	{POST /nbr/create}: createNeighbourhoodController(NeighbourhoodDTO)
+	{POST /nbr}: findAllNeighbourhoodController()
+2021-03-24 19:16:00.678 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodEmployeeController:
+	{POST /nbremployee}: findAllNeighbourhoodEmployeeController()
+	{POST /nbremployee/create}: createNeighbourhoodEmployeeController(NeibourhoodEmployeeDTO)
+	{POST /nbremployee/{neighbourEmpId}}: findOneNeighbourhoodEmployeeController(Integer)
+2021-03-24 19:16:00.680 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodPassController:
+	{POST /nbrpass}: findAllNeighbourhoodPassDetailController()
+	{POST /nbrpass/{neighbourPass}}: findOneNeighbourhoodPassDetailController(Long)
+	{POST /nbrpass/create}: createNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+	{POST /nbrpass/verify}: verifyNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+2021-03-24 19:16:00.681 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NotificationController:
+	{POST /notification/getall}: getNofiicationForUserController(IdNumberRequest)
+	{POST /notification/create}: createNotificationController(NotificationDTO)
+	{POST /notification/getone}: getOneNofiicationController(IdNumberRequest)
+	{POST /notification/verifyotp}: getOneNOtificationByIdController(IdNumberRequest)
+2021-03-24 19:16:00.683 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.OtpController:
+	{POST /otp/verify}: verifyOtpPhoneController(KeyValueRequest)
+	{POST /otp/verifyotp}: verifyOtpUserRegdController(IdNumberRequest)
+	{POST /otp/create}: createOtpController(PhoneEmailRequest)
+2021-03-24 19:16:00.685 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.RoleController:
+	{POST /role/}: getAllRolesController()
+	{POST /role/{roleId}}: getSingleRoleByIdController(int)
+	{POST /role/names/role}: getAllRolesNameController()
+	{POST /role/def-role/{userId}}: getDefaultRoleByUserIdController(Long)
+	{POST /role/create}: createRoleController(RoleDTO)
+	{POST /role/roles-uid/{userId}}: getRoleByUserIdController(Long)
+2021-03-24 19:16:00.687 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyController:
+	{POST /society}: findAllSociety()
+	{POST /society/cid}: findSocietyByCityController(IdStringRequest)
+	{POST /society/{societyId}}: findOneSocietyController(Integer)
+2021-03-24 19:16:00.689 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyEnrollmentController:
+	{POST /societyenrollment/{societyEnrollmentId}}: findOneSocietyEnrollmentController(Integer)
+	{POST /societyenrollment/enroll}: saveSocietyEnrollmentController(EnrolmentData)
+	{POST /societyenrollment}: findAllSocietyEnrollment()
+2021-03-24 19:16:00.690 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StaffController:
+	{POST /staff/}: findAllStaff()
+	{POST /staff/{staffId}}: findOneStaffController(long)
+2021-03-24 19:16:00.691 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StateController:
+	{POST /state/}: findAllState()
+	{POST /state/cid}: findStateByCountryController(IdStringRequest)
+	{POST /state/{stateId}}: findOneStateController(long)
+2021-03-24 19:16:00.700 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.UserController:
+	{POST /user/}: findAll()
+	{POST /user/logout}: logoutController(GlobalUserDTO)
+	{POST /user/login}: loginController(LoginDTO)
+	{POST /user/{userId}}: findOneUserController(long)
+	{POST /user/resetpass}: resetPasswordController(IdNumberRequest)
+	{POST /user/changepass}: changePasswordController(ChangePassword)
+	{POST /user/create}: createUpdateUserController(GlobalUserDTO)
+	{POST /user/forgotpass}: forgotPasswordController(IdStringRequest)
+	{POST /user/dropdowns}: getUserDropdownController(GlobalUserDTO)
+2021-03-24 19:16:00.703 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VisitorController:
+	{POST /visitor/}: findAllVisitors()
+	{POST /visitor/{visitorId}}: findOneFlatController(long)
+	{POST /visitor/fetchVisitorData}: fetchVisitorController(IdStringRequest)
+	{POST /visitor/create}: createUpdateUserController(VisitorDTO)
+2021-03-24 19:16:00.706 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VoteController:
+	{POST /vote/votename}: getNofiicationForUserController(IdStringRequest)
+	{POST /vote/create}: createVoteController(VoteDTO)
+	{POST /vote/creategroup}: createGroupVoteController(VoteDTO)
+	{POST /vote/votecount/}: getVoteCountController(IdStringRequest)
+	{POST /vote/userid}: getResultsByUserController(IdNumberRequest)
+	{POST /vote/{voteId}}: getOneVoteController(Long)
+2021-03-24 19:16:00.709 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-03-24 19:16:00.715 DEBUG 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 81 mappings in 'requestMappingHandlerMapping'
+2021-03-24 19:16:00.730 DEBUG 1296 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2021-03-24 19:16:00.781 DEBUG 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-03-24 19:16:00.795 DEBUG 1296 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-03-24 19:16:01.394  INFO 1296 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-24 19:16:01.473  INFO 1296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-24 19:16:01.481  INFO 1296 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-24 19:16:01.530  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/society'
+2021-03-24 19:16:01.542  INFO 1296 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-24 19:16:02.184  INFO 1296 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-24 19:16:02.207 TRACE 1296 --- [restartedMain] o.s.w.s.resource.ResourceUrlProvider     : No resource handling mappings found
+2021-03-24 19:16:02.209  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : Started VmsApplication in 4.733 seconds (JVM running for 287.835)
+2021-03-24 19:16:02.217  INFO 1296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-24 19:16:04.467  INFO 1296 --- [Thread-327] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-24 19:16:04.469  INFO 1296 --- [Thread-327] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:16:04.469  INFO 1296 --- [Thread-327] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-03-24 19:16:04.470 DEBUG 1296 --- [Thread-327] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:16:04.470 DEBUG 1296 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20ce6ac5: (connection evicted)
+2021-03-24 19:16:04.471 DEBUG 1296 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@291772a: (connection evicted)
+2021-03-24 19:16:04.472 DEBUG 1296 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b04fdac: (connection evicted)
+2021-03-24 19:16:04.473 DEBUG 1296 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e723c6: (connection evicted)
+2021-03-24 19:16:04.473 DEBUG 1296 --- [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f36e21f: (connection evicted)
+2021-03-24 19:16:04.474 DEBUG 1296 --- [Thread-327] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-03-24 19:16:04.474  INFO 1296 --- [Thread-327] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-03-24 19:16:05.032  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : Starting VmsApplication on DESKTOP-52B700M with PID 1296 (E:\Project\society_secure_project\MyApp\target\classes started by Pikun in E:\Project\society_secure_project\MyApp)
+2021-03-24 19:16:05.032  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : No active profile set, falling back to default profiles: default
+2021-03-24 19:16:06.327  INFO 1296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-24 19:16:06.481  INFO 1296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154ms. Found 21 JPA repository interfaces.
+2021-03-24 19:16:06.924  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 19:16:07.010  INFO 1296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1973 ms
+2021-03-24 19:16:07.141 DEBUG 1296 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648
+2021-03-24 19:16:07.142 DEBUG 1296 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-03-24 19:16:07.157 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3cf3effe
+2021-03-24 19:16:07.202  INFO 1296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:16:07.203 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-3 - configuration:
+2021-03-24 19:16:07.204 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2021-03-24 19:16:07.204 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2021-03-24 19:16:07.204 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2021-03-24 19:16:07.204 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2021-03-24 19:16:07.204 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/SocietySecure
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2021-03-24 19:16:07.205 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2021-03-24 19:16:07.206 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................5
+2021-03-24 19:16:07.209 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2021-03-24 19:16:07.209 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2021-03-24 19:16:07.210 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2021-03-24 19:16:07.210 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2021-03-24 19:16:07.210 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-3"
+2021-03-24 19:16:07.210 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2021-03-24 19:16:07.210 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2021-03-24 19:16:07.211 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2021-03-24 19:16:07.212 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2021-03-24 19:16:07.212 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2021-03-24 19:16:07.212 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2021-03-24 19:16:07.212 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2021-03-24 19:16:07.213 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2021-03-24 19:16:07.213  INFO 1296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-03-24 19:16:07.220 DEBUG 1296 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d8011d4
+2021-03-24 19:16:07.220  INFO 1296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-03-24 19:16:07.321 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-03-24 19:16:07.328 DEBUG 1296 --- [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f443185
+2021-03-24 19:16:07.333 DEBUG 1296 --- [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e793bbe
+2021-03-24 19:16:07.337 DEBUG 1296 --- [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f7d73ec
+2021-03-24 19:16:07.341 DEBUG 1296 --- [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e56c4f1
+2021-03-24 19:16:07.342 DEBUG 1296 --- [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:16:07.470  WARN 1296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-24 19:16:07.500 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.AdvanceVisitorController:
+	{POST /avr/}: findAllVisitors()
+	{POST /avr/create}: createController(AdvanceVisitorRequestDTO)
+	{POST /avr/verify}: verifyAdvVisitorRequestController(KeyValueRequest)
+	{POST /avr/{avrId}}: findOneFlatController(long)
+2021-03-24 19:16:07.501 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CityController:
+	{POST /city/}: findAllCity()
+	{POST /city/{cityId}}: findOneCityController(Integer)
+	{POST /city/did}: findCityByDistrictController(IdStringRequest)
+2021-03-24 19:16:07.502 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CountryController:
+	{POST /country}: findAllState()
+	{POST /country/{countryId}}: findOneUserController(long)
+2021-03-24 19:16:07.504 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.DistrictController:
+	{POST /district/}: findAllState()
+	{POST /district/{districtId}}: findOneUserController(long)
+	{POST /district/sid}: findStateByCountryController(IdStringRequest)
+2021-03-24 19:16:07.506 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.FlatController:
+	{POST /flat/{flatId}}: findOneFlatController(long)
+	{POST /flat/create}: createUpdateFlatController(FlatDTO)
+	{POST /flat/}: findAllFlatController()
+2021-03-24 19:16:07.507 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.HomeController:
+	{GET /}: home()
+2021-03-24 19:16:07.509 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.MenuLinkController:
+	{POST /menu/factory/{isFactDefault}}: getAllNoneFactoryDefaultMenuController(boolean)
+	{POST /menu/}: getAllMenuController()
+	{POST /menu/{menuId}}: getSingleMenuByIdController(int)
+	{POST /menu/roleid/{roleId}}: getMenuByRoleIdController(int)
+	{POST /menu/rolename/{roleName}}: getMenuByRoleNameController(String)
+	{POST /menu/admin/{isAdminMenu}}: getAllNoneAdminMenuController(boolean)
+	{POST /menu/common/{isCommom}}: getAllNoneCommonMenuController(boolean)
+	{POST /menu/create}: createMenuController(MenuLinkDTO)
+	{POST /menu/parent/{parentMenuId}}: getAllByParentMenuIdController(int)
+2021-03-24 19:16:07.511 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodController:
+	{POST /nbr/statusupdate}: updateNeighbourhoodStatusController(NeibourhoodStatusRequest)
+	{POST /nbr/{neighbourId}}: findOneNeighbourhoodController(Integer)
+	{POST /nbr/create}: createNeighbourhoodController(NeighbourhoodDTO)
+	{POST /nbr}: findAllNeighbourhoodController()
+2021-03-24 19:16:07.513 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodEmployeeController:
+	{POST /nbremployee}: findAllNeighbourhoodEmployeeController()
+	{POST /nbremployee/create}: createNeighbourhoodEmployeeController(NeibourhoodEmployeeDTO)
+	{POST /nbremployee/{neighbourEmpId}}: findOneNeighbourhoodEmployeeController(Integer)
+2021-03-24 19:16:07.515 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodPassController:
+	{POST /nbrpass}: findAllNeighbourhoodPassDetailController()
+	{POST /nbrpass/{neighbourPass}}: findOneNeighbourhoodPassDetailController(Long)
+	{POST /nbrpass/create}: createNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+	{POST /nbrpass/verify}: verifyNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+2021-03-24 19:16:07.517 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NotificationController:
+	{POST /notification/getall}: getNofiicationForUserController(IdNumberRequest)
+	{POST /notification/create}: createNotificationController(NotificationDTO)
+	{POST /notification/getone}: getOneNofiicationController(IdNumberRequest)
+	{POST /notification/verifyotp}: getOneNOtificationByIdController(IdNumberRequest)
+2021-03-24 19:16:07.519 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.OtpController:
+	{POST /otp/verify}: verifyOtpPhoneController(KeyValueRequest)
+	{POST /otp/verifyotp}: verifyOtpUserRegdController(IdNumberRequest)
+	{POST /otp/create}: createOtpController(PhoneEmailRequest)
+2021-03-24 19:16:07.521 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.RoleController:
+	{POST /role/}: getAllRolesController()
+	{POST /role/{roleId}}: getSingleRoleByIdController(int)
+	{POST /role/names/role}: getAllRolesNameController()
+	{POST /role/def-role/{userId}}: getDefaultRoleByUserIdController(Long)
+	{POST /role/create}: createRoleController(RoleDTO)
+	{POST /role/roles-uid/{userId}}: getRoleByUserIdController(Long)
+2021-03-24 19:16:07.523 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyController:
+	{POST /society}: findAllSociety()
+	{POST /society/cid}: findSocietyByCityController(IdStringRequest)
+	{POST /society/{societyId}}: findOneSocietyController(Integer)
+2021-03-24 19:16:07.524 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyEnrollmentController:
+	{POST /societyenrollment/{societyEnrollmentId}}: findOneSocietyEnrollmentController(Integer)
+	{POST /societyenrollment/enroll}: saveSocietyEnrollmentController(EnrolmentData)
+	{POST /societyenrollment}: findAllSocietyEnrollment()
+2021-03-24 19:16:07.525 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StaffController:
+	{POST /staff/}: findAllStaff()
+	{POST /staff/{staffId}}: findOneStaffController(long)
+2021-03-24 19:16:07.529 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StateController:
+	{POST /state/}: findAllState()
+	{POST /state/cid}: findStateByCountryController(IdStringRequest)
+	{POST /state/{stateId}}: findOneStateController(long)
+2021-03-24 19:16:07.532 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.UserController:
+	{POST /user/}: findAll()
+	{POST /user/logout}: logoutController(GlobalUserDTO)
+	{POST /user/login}: loginController(LoginDTO)
+	{POST /user/{userId}}: findOneUserController(long)
+	{POST /user/resetpass}: resetPasswordController(IdNumberRequest)
+	{POST /user/changepass}: changePasswordController(ChangePassword)
+	{POST /user/create}: createUpdateUserController(GlobalUserDTO)
+	{POST /user/forgotpass}: forgotPasswordController(IdStringRequest)
+	{POST /user/dropdowns}: getUserDropdownController(GlobalUserDTO)
+2021-03-24 19:16:07.534 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VisitorController:
+	{POST /visitor/}: findAllVisitors()
+	{POST /visitor/{visitorId}}: findOneFlatController(long)
+	{POST /visitor/fetchVisitorData}: fetchVisitorController(IdStringRequest)
+	{POST /visitor/create}: createUpdateUserController(VisitorDTO)
+2021-03-24 19:16:07.536 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VoteController:
+	{POST /vote/votename}: getNofiicationForUserController(IdStringRequest)
+	{POST /vote/create}: createVoteController(VoteDTO)
+	{POST /vote/creategroup}: createGroupVoteController(VoteDTO)
+	{POST /vote/votecount/}: getVoteCountController(IdStringRequest)
+	{POST /vote/userid}: getResultsByUserController(IdNumberRequest)
+	{POST /vote/{voteId}}: getOneVoteController(Long)
+2021-03-24 19:16:07.539 TRACE 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-03-24 19:16:07.545 DEBUG 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 81 mappings in 'requestMappingHandlerMapping'
+2021-03-24 19:16:07.556 DEBUG 1296 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2021-03-24 19:16:07.580 DEBUG 1296 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-03-24 19:16:07.601 DEBUG 1296 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-03-24 19:16:07.970  INFO 1296 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-24 19:16:08.022  INFO 1296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-24 19:16:08.029  INFO 1296 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-24 19:16:08.056  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/society'
+2021-03-24 19:16:08.057  INFO 1296 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-24 19:16:08.426  INFO 1296 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-24 19:16:08.436 TRACE 1296 --- [restartedMain] o.s.w.s.resource.ResourceUrlProvider     : No resource handling mappings found
+2021-03-24 19:16:08.437  INFO 1296 --- [restartedMain] com.society.core.vms.VmsApplication      : Started VmsApplication in 3.476 seconds (JVM running for 294.062)
+2021-03-24 19:16:08.440  INFO 1296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-24 19:16:12.784  INFO 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 19:16:12.785 TRACE 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@1a4ec7c8
+2021-03-24 19:16:12.788 TRACE 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2021-03-24 19:16:12.789 TRACE 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2021-03-24 19:16:12.822 TRACE 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2021-03-24 19:16:12.829 TRACE 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2021-03-24 19:16:12.830 DEBUG 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-03-24 19:16:12.830  INFO 1296 --- [RMI TCP Connection(17)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 46 ms
+2021-03-24 19:16:16.474  INFO 4756 --- [restartedMain] com.society.core.vms.VmsApplication      : Starting VmsApplication on DESKTOP-52B700M with PID 4756 (E:\Project\society_secure_project\MyApp\target\classes started by Pikun in E:\Project\society_secure_project\MyApp)
+2021-03-24 19:16:16.477  INFO 4756 --- [restartedMain] com.society.core.vms.VmsApplication      : No active profile set, falling back to default profiles: default
+2021-03-24 19:16:16.542  INFO 4756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 19:16:18.815  INFO 4756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-24 19:16:19.113  INFO 4756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 287ms. Found 21 JPA repository interfaces.
+2021-03-24 19:16:19.951  INFO 4756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 19:16:20.176  INFO 4756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3633 ms
+2021-03-24 19:16:20.371 DEBUG 4756 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648
+2021-03-24 19:16:20.372 DEBUG 4756 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-03-24 19:16:20.478 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@711c80ce
+2021-03-24 19:16:20.630  INFO 4756 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:16:20.642 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-03-24 19:16:20.644 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2021-03-24 19:16:20.645 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2021-03-24 19:16:20.645 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2021-03-24 19:16:20.645 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2021-03-24 19:16:20.645 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2021-03-24 19:16:20.646 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
+2021-03-24 19:16:20.646 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2021-03-24 19:16:20.646 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2021-03-24 19:16:20.646 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2021-03-24 19:16:20.647 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2021-03-24 19:16:20.647 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-03-24 19:16:20.647 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2021-03-24 19:16:20.647 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2021-03-24 19:16:20.647 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2021-03-24 19:16:20.647 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2021-03-24 19:16:20.648 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2021-03-24 19:16:20.648 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2021-03-24 19:16:20.648 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/SocietySecure
+2021-03-24 19:16:20.648 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2021-03-24 19:16:20.648 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2021-03-24 19:16:20.649 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................5
+2021-03-24 19:16:20.649 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2021-03-24 19:16:20.649 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2021-03-24 19:16:20.649 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2021-03-24 19:16:20.650 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2021-03-24 19:16:20.650 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2021-03-24 19:16:20.650 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2021-03-24 19:16:20.650 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2021-03-24 19:16:20.650 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2021-03-24 19:16:20.651 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2021-03-24 19:16:20.651 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2021-03-24 19:16:20.651 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2021-03-24 19:16:20.651 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2021-03-24 19:16:20.651 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2021-03-24 19:16:20.651  INFO 4756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-24 19:16:20.819 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2648fee4
+2021-03-24 19:16:20.821  INFO 4756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-24 19:16:21.021 DEBUG 4756 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-03-24 19:16:21.031 DEBUG 4756 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b87fa7b
+2021-03-24 19:16:21.037 DEBUG 4756 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7abaf040
+2021-03-24 19:16:21.041 DEBUG 4756 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b8a4f1c
+2021-03-24 19:16:21.046 DEBUG 4756 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a950f0f
+2021-03-24 19:16:21.047 DEBUG 4756 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:16:21.271  WARN 4756 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-24 19:16:21.367 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.AdvanceVisitorController:
+	{POST /avr/}: findAllVisitors()
+	{POST /avr/create}: createController(AdvanceVisitorRequestDTO)
+	{POST /avr/verify}: verifyAdvVisitorRequestController(KeyValueRequest)
+	{POST /avr/{avrId}}: findOneFlatController(long)
+2021-03-24 19:16:21.374 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CityController:
+	{POST /city/}: findAllCity()
+	{POST /city/{cityId}}: findOneCityController(Integer)
+	{POST /city/did}: findCityByDistrictController(IdStringRequest)
+2021-03-24 19:16:21.378 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.CountryController:
+	{POST /country}: findAllState()
+	{POST /country/{countryId}}: findOneUserController(long)
+2021-03-24 19:16:21.381 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.DistrictController:
+	{POST /district/}: findAllState()
+	{POST /district/{districtId}}: findOneUserController(long)
+	{POST /district/sid}: findStateByCountryController(IdStringRequest)
+2021-03-24 19:16:21.383 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.FlatController:
+	{POST /flat/create}: createUpdateFlatController(FlatDTO)
+	{POST /flat/}: findAllFlatController()
+	{POST /flat/{flatId}}: findOneFlatController(long)
+2021-03-24 19:16:21.385 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.HomeController:
+	{GET /}: home()
+2021-03-24 19:16:21.390 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.MenuLinkController:
+	{POST /menu/factory/{isFactDefault}}: getAllNoneFactoryDefaultMenuController(boolean)
+	{POST /menu/}: getAllMenuController()
+	{POST /menu/roleid/{roleId}}: getMenuByRoleIdController(int)
+	{POST /menu/rolename/{roleName}}: getMenuByRoleNameController(String)
+	{POST /menu/{menuId}}: getSingleMenuByIdController(int)
+	{POST /menu/common/{isCommom}}: getAllNoneCommonMenuController(boolean)
+	{POST /menu/admin/{isAdminMenu}}: getAllNoneAdminMenuController(boolean)
+	{POST /menu/create}: createMenuController(MenuLinkDTO)
+	{POST /menu/parent/{parentMenuId}}: getAllByParentMenuIdController(int)
+2021-03-24 19:16:21.393 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodController:
+	{POST /nbr/statusupdate}: updateNeighbourhoodStatusController(NeibourhoodStatusRequest)
+	{POST /nbr/create}: createNeighbourhoodController(NeighbourhoodDTO)
+	{POST /nbr}: findAllNeighbourhoodController()
+	{POST /nbr/{neighbourId}}: findOneNeighbourhoodController(Integer)
+2021-03-24 19:16:21.395 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodEmployeeController:
+	{POST /nbremployee}: findAllNeighbourhoodEmployeeController()
+	{POST /nbremployee/create}: createNeighbourhoodEmployeeController(NeibourhoodEmployeeDTO)
+	{POST /nbremployee/{neighbourEmpId}}: findOneNeighbourhoodEmployeeController(Integer)
+2021-03-24 19:16:21.398 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NeighbourhoodPassController:
+	{POST /nbrpass/create}: createNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+	{POST /nbrpass/{neighbourPass}}: findOneNeighbourhoodPassDetailController(Long)
+	{POST /nbrpass/verify}: verifyNeighbourhoodPassDetailController(NeighbourhoodPassDetailDTO)
+	{POST /nbrpass}: findAllNeighbourhoodPassDetailController()
+2021-03-24 19:16:21.401 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.NotificationController:
+	{POST /notification/getone}: getOneNofiicationController(IdNumberRequest)
+	{POST /notification/verifyotp}: getOneNOtificationByIdController(IdNumberRequest)
+	{POST /notification/getall}: getNofiicationForUserController(IdNumberRequest)
+	{POST /notification/create}: createNotificationController(NotificationDTO)
+2021-03-24 19:16:21.403 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.OtpController:
+	{POST /otp/verify}: verifyOtpPhoneController(KeyValueRequest)
+	{POST /otp/verifyotp}: verifyOtpUserRegdController(IdNumberRequest)
+	{POST /otp/create}: createOtpController(PhoneEmailRequest)
+2021-03-24 19:16:21.406 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.RoleController:
+	{POST /role/def-role/{userId}}: getDefaultRoleByUserIdController(Long)
+	{POST /role/create}: createRoleController(RoleDTO)
+	{POST /role/{roleId}}: getSingleRoleByIdController(int)
+	{POST /role/}: getAllRolesController()
+	{POST /role/roles-uid/{userId}}: getRoleByUserIdController(Long)
+	{POST /role/names/role}: getAllRolesNameController()
+2021-03-24 19:16:21.409 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyController:
+	{POST /society}: findAllSociety()
+	{POST /society/cid}: findSocietyByCityController(IdStringRequest)
+	{POST /society/{societyId}}: findOneSocietyController(Integer)
+2021-03-24 19:16:21.411 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.SocietyEnrollmentController:
+	{POST /societyenrollment/{societyEnrollmentId}}: findOneSocietyEnrollmentController(Integer)
+	{POST /societyenrollment/enroll}: saveSocietyEnrollmentController(EnrolmentData)
+	{POST /societyenrollment}: findAllSocietyEnrollment()
+2021-03-24 19:16:21.412 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StaffController:
+	{POST /staff/}: findAllStaff()
+	{POST /staff/{staffId}}: findOneStaffController(long)
+2021-03-24 19:16:21.414 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.StateController:
+	{POST /state/}: findAllState()
+	{POST /state/cid}: findStateByCountryController(IdStringRequest)
+	{POST /state/{stateId}}: findOneStateController(long)
+2021-03-24 19:16:21.419 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.UserController:
+	{POST /user/}: findAll()
+	{POST /user/login}: loginController(LoginDTO)
+	{POST /user/logout}: logoutController(GlobalUserDTO)
+	{POST /user/{userId}}: findOneUserController(long)
+	{POST /user/create}: createUpdateUserController(GlobalUserDTO)
+	{POST /user/forgotpass}: forgotPasswordController(IdStringRequest)
+	{POST /user/resetpass}: resetPasswordController(IdNumberRequest)
+	{POST /user/changepass}: changePasswordController(ChangePassword)
+	{POST /user/dropdowns}: getUserDropdownController(GlobalUserDTO)
+2021-03-24 19:16:21.424 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VisitorController:
+	{POST /visitor/}: findAllVisitors()
+	{POST /visitor/{visitorId}}: findOneFlatController(long)
+	{POST /visitor/create}: createUpdateUserController(VisitorDTO)
+	{POST /visitor/fetchVisitorData}: fetchVisitorController(IdStringRequest)
+2021-03-24 19:16:21.429 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.s.c.v.c.VoteController:
+	{POST /vote/votename}: getNofiicationForUserController(IdStringRequest)
+	{POST /vote/{voteId}}: getOneVoteController(Long)
+	{POST /vote/votecount/}: getVoteCountController(IdStringRequest)
+	{POST /vote/creategroup}: createGroupVoteController(VoteDTO)
+	{POST /vote/userid}: getResultsByUserController(IdNumberRequest)
+	{POST /vote/create}: createVoteController(VoteDTO)
+2021-03-24 19:16:21.438 TRACE 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-03-24 19:16:21.444 DEBUG 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 81 mappings in 'requestMappingHandlerMapping'
+2021-03-24 19:16:21.459 DEBUG 4756 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2021-03-24 19:16:21.545 DEBUG 4756 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-03-24 19:16:21.592 DEBUG 4756 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-03-24 19:16:23.451  INFO 4756 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-24 19:16:23.673  WARN 4756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-03-24 19:16:23.685  INFO 4756 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-24 19:16:23.828  WARN 4756 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-03-24 19:16:23.832  WARN 4756 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2021-03-24 19:16:23.834  INFO 4756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-24 19:16:23.840  INFO 4756 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:16:23.843  INFO 4756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-24 19:16:23.844 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:16:23.845 DEBUG 4756 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2648fee4: (connection evicted)
+2021-03-24 19:16:23.851 DEBUG 4756 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b87fa7b: (connection evicted)
+2021-03-24 19:16:23.852 DEBUG 4756 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7abaf040: (connection evicted)
+2021-03-24 19:16:23.854 DEBUG 4756 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b8a4f1c: (connection evicted)
+2021-03-24 19:16:23.855 DEBUG 4756 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a950f0f: (connection evicted)
+2021-03-24 19:16:23.856 DEBUG 4756 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-03-24 19:16:23.856  INFO 4756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-24 19:16:23.892  INFO 4756 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-24 19:16:23.942 ERROR 4756 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-03-24 19:16:37.337 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:16:37.337 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:17:07.350 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:17:07.350 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:17:37.358 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:17:37.358 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:18:07.373 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:18:07.373 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:18:37.379 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:18:37.379 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:19:07.393 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:19:07.393 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:19:37.400 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:19:37.400 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:20:07.407 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:20:07.407 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:20:37.422 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:20:37.422 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:21:07.423 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:21:07.423 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:21:37.436 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:21:37.436 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:22:07.448 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:22:07.448 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:22:37.453 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:22:37.453 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:23:07.459 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:23:07.459 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:23:37.475 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:23:37.475 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:24:07.482 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:24:07.482 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:24:37.494 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:24:37.495 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:25:07.506 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:25:07.506 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:25:37.514 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:25:37.514 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:26:07.519 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:26:07.519 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+2021-03-24 19:26:37.533 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2021-03-24 19:26:37.540 DEBUG 1296 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool is at sufficient level.
